@@ -1,366 +1,367 @@
-"Your Algorithm Will See You Now" by Michael Abrouk, TEDxUMiami
+"Ihr Algorithmus wird Sie jetzt sehen" von Michael Abrouk, TEDxUMiami
 
-German and Spanish Transcript for this:
+Deutsch und Spanisch Transcript dafür:
 
 
-So today your algorithm will see you now
+So wird Ihr Algorithmus heute sehen Sie jetzt
 
-And what do I mean by that? Well, I am gonna get into it.
+Und was meine ich damit? Nun, ich werde darauf eingehen.
 
-So as a dermatologist, pretty much everyday in the clinic we will see skin like this. I'll walk in and see a patient and this is their back, covered with all of these different spots. 
- And as a dermatologist I know to look at some of the more important ones.
+Als Dermatologe sehen wir so ziemlich jeden Tag in der Klinik solche Haut. Ich komme rein und sehe einen Patienten und das ist sein Rücken, bedeckt mit all diesen verschiedenen Flecken.
 
-Why do this spots stand out more to me than all the rest of those spots on there, and why did this jump out to me as being something like a melanoma that I would want to biopsy.
+Und als Dermatologe weiß ich, dass ich mir einige der wichtigeren ansehen muss.
 
-Well, that is the importance of vision. It's also the importance of decades of training, thousands of hours of experience and real world patient context, that allows you, to come to that diagnosis as a dermatologist.
+Warum sticht dieser Fleck für mich mehr heraus als alle anderen Flecken dort, und warum springt er mir als so etwas wie ein Melanom ins Auge, das ich biopsieren möchte.
 
-Now, what I like to talk with you about today, is how important these skin cancers are, and how important all skin cancers and all cancers are.
+Nun, das ist die Bedeutung der Vision. Es ist auch die Bedeutung der jahrzehntelangen Ausbildung, tausender Stunden Erfahrung und des realen Patientenkontextes, der es Ihnen als Dermatologe erlaubt, zu dieser Diagnose zu kommen.
 
-So, on average per year. We have about 5.4 Million non-melanoma skin cancers that are diagnosed. And that comes out to about one skin cancer every five seconds.
+Worüber ich heute mit Ihnen sprechen möchte, ist, wie wichtig diese Hautkrebse sind, und wie wichtig alle Hautkrebse und alle Krebsarten sind.
 
-So, what I like to discuss, is how we can leverage ubiquitous technology, that we have all around us, to help to come to a higher fidelity diagnosis, and a better rendering of care for patients, and a higher fidelity health care.
+Im Durchschnitt werden also pro Jahr etwa 5,4 Millionen Nicht-Melanom-Hautkrebse diagnostiziert. Das bedeutet, dass etwa alle fünf Sekunden ein Hautkrebs auftritt.
 
-So, specificly, this ubiquitous technology that we're talking about.
+Ich möchte also erörtern, wie wir die allgegenwärtige Technologie, die wir überall um uns herum haben, nutzen können, um zu einer zuverlässigeren Diagnose, einer besseren Versorgung der Patienten und einer zuverlässigeren Gesundheitsversorgung zu gelangen.
 
-Things like your iPhone, your camera, your smartphone, even your Apple watch and other data sensor metrics. 
+Also, speziell diese allgegenwärtige Technologie, über die wir sprechen.
 
-We can use now this data technology to get a better conclusive diagnosis in healthcare using artificial intelligence.
+Dinge wie Ihr iPhone, Ihre Kamera, Ihr Smartphone, sogar Ihre Apple Watch und andere Datensensormetriken.
 
-Now, before we jump into all the computer science and all the fun stuff, I want to do something that I don't know has ever been done in a TedTalk before.
+Wir können jetzt diese Datentechnologie nutzen, um mit Hilfe von künstlicher Intelligenz eine bessere, schlüssige Diagnose im Gesundheitswesen zu erhalten.
 
-So, a lot of people listen to these remotely. They're listen to podcasts. And I'd like you to, at this moment, to safely pull over on the road or pull over from your workout and take a look at your phone or whatever streaming device you're using.
+Nun, bevor wir uns in die ganze Computerwissenschaft und den ganzen Spaß stürzen, möchte ich etwas tun, von dem ich nicht weiß, ob es jemals zuvor in einem TedTalk gemacht wurde.
 
-Because we're gonna do a little pop quiz.
+Also, viele Leute hören sich diese aus der Ferne an. Sie hören sich Podcasts an. Und ich möchte Sie bitten, in diesem Moment auf der Straße sicher anzuhalten oder Ihr Training zu unterbrechen und einen Blick auf Ihr Telefon oder das Streaming-Gerät zu werfen, das Sie gerade benutzen.
 
-And this pop quiz is specifically a guess: "Who am I?"
+Denn wir werden ein kleines Pop-Quiz machen.
 
-So, who am I specifically talking about right now? And whenever the answer is coming to your mind, just blurt it out. It doesn't matter if you're bothering whoever's next to you. They will probably like it and ask about the talk in and of itself.
+Und bei diesem Pop-Quiz geht es speziell um das Raten: "Wer bin ich?"
 
-So, I am a male
+Also, von wem spreche ich jetzt konkret? Und wenn Ihnen die Antwort in den Sinn kommt, platzen Sie einfach damit heraus. Es ist egal, ob Sie Ihren Gesprächspartner damit belästigen. Er wird es wahrscheinlich mögen und nach dem Gespräch an sich fragen.
 
-I have a beard
+Also, ich bin ein Mann
 
-I am tall
+Ich habe einen Bart
 
-I like speeches
+Ich bin groß
 
-I was born in a log cabin
+Ich mag Reden
 
-And I was a former president of the United States of America.
+Ich wurde in einer Blockhütte geboren
 
-So, if you're come to a conclusion again, feel free to blurt that one out. Then that's Abraham Lincoln over here.
+Und ich war ein ehemaliger Präsident der Vereinigten Staaten von Amerika.
 
-Now, those pieces of data are all siloed off in individual components. Like the height, the description, the beard, all of these things. And it takes a little time to tease out that data, to see exactly what we're talking about.
+Also, wenn Sie wieder zu einem Schluss kommen, können Sie diesen gerne ausplaudern. Dann ist das hier Abraham Lincoln.
 
-Now - leveraging instead of those natural language data points or individual data points. If we then leverage visual data, you now get to the second question of this pop quiz.
+Nun, diese Daten sind alle in einzelne Komponenten aufgeteilt. Wie die Höhe, die Beschreibung, der Bart, all diese Dinge. Und es braucht ein wenig Zeit, um diese Daten herauszufiltern, um genau zu sehen, worüber wir sprechen.
 
-Which is: "Who is this?"
+Nun - nutzen wir stattdessen diese natürlichsprachlichen Datenpunkte oder einzelne Datenpunkte. Wenn wir dann visuelle Daten nutzen, kommen Sie zur zweiten Frage dieses Pop-Quiz.
 
-And the anser would be: The greatest basketball player in NBA history, Kobe Bryant.
+Nämlich: "Wer ist da?"
 
-And it is a lot easier to come to conclusions like that, based on visual data rather than individual components of data points.
+Und die Antwort wäre: Der größte Basketballspieler in der Geschichte der NBA, Kobe Bryant.
 
-And I'd like to discuss today, how we can do that same thing in dermatology and in healthcare, to get a much better diagnosis and really leverage a lot more data points for our patients. 
+Und es ist viel einfacher, zu solchen Schlussfolgerungen zu kommen, die auf visuellen Daten basieren und nicht auf einzelnen Komponenten von Datenpunkten.
 
-So, specifically when patients come in today.
+Und ich möchte heute darüber sprechen, wie wir dasselbe in der Dermatologie und im Gesundheitswesen tun können, um eine viel bessere Diagnose zu erhalten und wirklich viel mehr Datenpunkte für unsere Patienten zu nutzen.
 
-They've got all different categories like their bloodwork, which medications they're on, various electronic medical records, and then all sorts of other data points from a physical exam and paperwork.
+Also, speziell wenn Patienten heute kommen.
 
-And those are sort of individual components, that aren't really brought together in a way that we can do yet, but we're getting very close.
+Sie haben alle verschiedenen Kategorien, wie z. B. ihre Blutwerte, welche Medikamente sie einnehmen, verschiedene elektronische Krankenakten und dann alle möglichen anderen Datenpunkte aus einer körperlichen Untersuchung und Papierkram.
+
+Und das sind sozusagen Einzelkomponenten, die noch nicht wirklich zusammengeführt werden können, aber wir kommen dem schon sehr nahe.
 
 ###
 
-## 3:56  
+## 3:56
 
-And we're getting close, thanks to the use of machine learning
+Und wir kommen der Sache näher, dank des Einsatzes von maschinellem Lernen
 
-# 4:00 
+# 4:00
 
-artificial intelligence and really computer vision to come to those integrated diagnoses and integrated decision platforms a lot more quickly with higher fidelity.
+Künstliche Intelligenz und Computer Vision, um viel schneller und mit höherer Genauigkeit zu diesen integrierten Diagnosen und integrierten Entscheidungsplattformen zu kommen.
 
 # 4:11
 
-So, again, we're talking today about leveraging visual data points, to come to a better conclusion to diagnose things like cancer.
+Wir sprechen heute also wieder über die Nutzung visueller Datenpunkte, um zu einer besseren Schlussfolgerung bei der Diagnose von Dingen wie Krebs zu kommen.
 
 # 4:19
 
-Like heart attacks.
+Wie Herzinfarkte.
 
-Like strokes.
+Wie Anschläge.
 
 # 4:21
 
-Very important health care issues for the whole world.
+Sehr wichtige Fragen der Gesundheitsversorgung für die ganze Welt.
 
 # 4:25
 
-So again, we're moving from what I like to call artificial intelligence into more of a clinical workflow of something I like to coin as augmented intelligence.
+Auch hier bewegen wir uns also von dem, was ich gerne als künstliche Intelligenz bezeichne, hin zu einem klinischen Workflow, den ich gerne als erweiterte Intelligenz bezeichne.
 
 # 4:34
 
-And that is really bringing the data points of artificial intelligence into an augmented decision platform with both: patients and physicians together, rendering that as not just it's own small piece but really a conclusion that they'd come to together.
+Und das bedeutet, die Datenpunkte der künstlichen Intelligenz in eine erweiterte Entscheidungsplattform zu bringen, in der sowohl Patienten als auch Ärzte zusammenarbeiten, und das nicht nur als ein eigenes kleines Stück, sondern wirklich als eine Schlussfolgerung, zu der sie gemeinsam gekommen sind.
 
 # 4:49
 
-So we're moving from healthcare to augmented health care.
+Wir bewegen uns also von der Gesundheitsversorgung zur erweiterten Gesundheitsversorgung.
 
 # 4:53
 
-Really augmenting the ability to diagnose treat and manage.
+Die Fähigkeit zur Diagnose, Behandlung und zum Management wird dadurch wirklich erweitert.
 
 # 4:57
 
-And I think, a great way to think about this, is what's been done with Tesla.
+Und ich denke, eine gute Möglichkeit, darüber nachzudenken, ist das, was mit Tesla gemacht wurde.
 
 # 5:02
 
-So you look at Tesla which has done phenomally well in artificial intelligence and really edge mapping, machine learning, vision mapping, computer vision.
+Schauen Sie sich Tesla an, das im Bereich der künstlichen Intelligenz und des Edge Mappings, des maschinellen Lernens, des Vision Mappings und der Computer Vision phänomenale Leistungen erbracht hat.
 
 # 5:10
 
-And this is an actual footage of Tesla's autonomous vehicle in real time in Silicon Valley
+Und dies ist eine aktuelle Aufnahme des autonomen Fahrzeugs von Tesla in Echtzeit im Silicon Valley
 
 # 5:16
 
-driving around the streets
+Fahren auf den Straßen
 
 # 5:17
 
-Now obviously this isn't fully autonomous, this is working in conjunction with the driver themselves. And you can that it maps out all these data points.
+Das ist natürlich nicht völlig autonom, sondern arbeitet mit dem Fahrer zusammen. Und Sie können sehen, dass es all diese Datenpunkte aufzeichnet.
 
 # 5:26
 
-We're trying to do the same thing with data points in healthcare.
+Wir versuchen, dasselbe mit Datenpunkten im Gesundheitswesen zu tun.
 
 # 5:31
 
-So how do they do that? Lots of really really high definition cameras that are brilliantly integrated on their vehicles.
+Und wie machen sie das? Mit einer Menge wirklich hochauflösender Kameras, die brillant in ihre Fahrzeuge integriert sind.
 
 # 5:38
 
-So how can we can take some of those high definition images that we see in dermatology 
+Wie können wir also einige dieser hochauflösenden Bilder, die wir in der Dermatologie sehen, aufnehmen
 
 # 5:42
 
-on patients´ skin, on human skin, and really integrate that in to do this with machine learning in healthcare.
+auf der Haut von Patienten, auf der menschlichen Haut, und das wirklich zu integrieren, um dies mit maschinellem Lernen im Gesundheitswesen zu tun.
 
 # 5:49
 
-So what a great research team did up at Stanford, was, they took over 100.000 biopsy proven clinical images.
+Ein großartiges Forschungsteam in Stanford hat also über 100.000 biopsieerprobte klinische Bilder aufgenommen.
 
 # 5:57
 
-And over 2.000 different disesase classifications
+Und über 2.000 verschiedene Krankheitsklassifikationen
 
 # 6:01
 
-And they put that into a convolutional neuronal network through a training set model
+Und das haben sie durch ein Trainingsset-Modell in ein faltiges neuronales Netz eingegeben
 
 # 6:06
 
-and we won't get into the details of the computer science on it but at after training that model back and forth, 
+und wir werden nicht in die Details der Computerwissenschaft dazu einsteigen, aber nach dem Training dieses Modells hin und her,
 
 # 6:12
 
-it ultimately comes to a conclusion, when being quizzed on a new lesion or a new image, and it renders a diagnosis whether that's a melanoma
+es kommt schließlich zu einer Schlussfolgerung, wenn es eine neue Läsion oder ein neues Bild abfragt, und es stellt eine Diagnose, ob es sich um ein Melanom handelt
 
 # 6:22
 
-a dysplastic nevis or whatever it may be.
+eine dysplastische Nevis oder was auch immer es sein mag.
 
 # 6:25
 
-So again: They took that now trained artificial intelligence machine learning model, and they quizzed it. On all sorts of different images and different kinds of of cutaneous findings that might be cancerous and they might not be
+Also noch einmal: Sie nahmen das jetzt trainierte maschinelle Lernmodell der künstlichen Intelligenz und fragten es ab. Auf allen möglichen verschiedenen Bildern und verschiedenen Arten von Hautbefunden, die krebsartig sein könnten und die es vielleicht nicht sind
 
 # 6:38
 
-And this is sort of what the computer sees: You see this sort of static edge mapping outline on some of these lesions. 
+Und das ist es, was der Computer sieht: Sie sehen diese Art von statischen Kantenumrissen auf einigen dieser Läsionen.
 
 # 6:45
 
-as well as this heat map kind of rendering what would be a concerning finding, versus what would be something that's a little bit more benign.
+sowie diese Heatmap, die anzeigt, was ein besorgniserregender Befund ist und was eher harmlos ist.
 
 # 6:52
 
-And this is realtime a demo of this happening on a cellphone looking at these images and actually scanning them with reasonable fidelity, to see whether or not this is something concerning like a melanoma
+Dies ist eine Echtzeit-Demonstration auf einem Mobiltelefon, das diese Bilder betrachtet und mit angemessener Genauigkeit scannt, um zu sehen, ob es sich um ein Melanom handelt oder nicht
 
 # 7:04
 
-or it's something less concerning like a benign cutaneous growth. 
+oder es ist etwas weniger Besorgniserregendes wie eine gutartige Hautwucherung.
 
 # 7:08
 
-And they quiz that model on carcinomas against board-certified dermatologists working together and they found, the algorithm had about a 96% accurate diagnosis for those carcinomas
+Sie untersuchten dieses Modell an Karzinomen und verglichen es mit zertifizierten Dermatologen, die zusammen arbeiteten, und sie fanden heraus, dass der Algorithmus eine 96%ige Genauigkeit bei der Diagnose dieser Karzinome hatte
 
 # 7:19
 
-And about a 94% accurate diagnosis for melanomas,
+Und etwa eine 94% genaue Diagnose für Melanome,
 
 # 7:23
 
-which is pretty incredible.
+was ziemlich unglaublich ist.
 
 # 7:25
 
-They were able to do that at this young stage in artificial intelligence in healthcare.
+Das ist ihnen in diesem jungen Stadium der künstlichen Intelligenz im Gesundheitswesen gelungen.
 
 # 7:30
 
-Even more impressive is another group back over at MIT and Havard did a collaborative study, taking instead of those individual lesions, looking at a full body photography or more of a global picture.
+Noch beeindruckender ist, dass eine andere Gruppe drüben am MIT und in Havard eine gemeinsame Studie durchgeführt hat, die anstelle dieser einzelnen Läsionen eine Ganzkörperfotografie oder eher ein globales Bild betrachtet.
 
 # 7:41
 
-Something, that would be more practical, like the image that we saw at the start,
+Etwas, das praktischer wäre, wie das Bild, das wir am Anfang gesehen haben,
 
 # 7:44
 
-where you're actually just looking at the global picure of a patient when they walk in, and identifying, which one of those points
+wo man eigentlich nur das Gesamtbild eines Patienten betrachtet, wenn er reinkommt, und identifiziert, welcher dieser Punkte
 
 # 7:51
 
-which one of those lesions are more concerning than others, and 
+welche dieser Läsionen mehr betroffen sind als andere, und
 
 # 7:55
 
-it's really the start of this technology
+es ist wirklich der Anfang dieser Technologie
 
 # 7:58
 
-So where I think, this is extremely cool, is, this can work in anything in healthcare, not just dermatology.
+Ich denke, das ist extrem cool, denn das kann in jedem Bereich des Gesundheitswesens funktionieren, nicht nur in der Dermatologie.
 
 # 8:04
 
-Not just pathology. It's really anything that is visual at this point and hopefully we can move into something that is a little more natural language processing in the near future.
+Nicht nur Pathologie. Im Moment ist es wirklich alles, was visuell ist, und hoffentlich können wir in naher Zukunft zu etwas übergehen, das ein wenig mehr natürliche Sprachverarbeitung beinhaltet.
 
 # 8:13
 
-But this is allowing us to augment dermatopathology as well with some of the teams over at Google, 
+Aber das erlaubt uns auch, die Dermatopathologie mit einigen Teams bei Google zu erweitern,
 
 # 8:18
 
-doing an incredible job really rendering those outlines of what are concerning features under histology and even another group over at Stanford, doing this for X-rays as well,
+Sie machen einen unglaublichen Job, indem sie diese Umrisse von Merkmalen in der Histologie darstellen, und eine andere Gruppe in Stanford macht das auch für Röntgenaufnahmen,
 
 #8:28
 
-for identifying this again directly on the cell phone, using these algorithms to not just render a diagnosis,
+um dies wieder direkt auf dem Handy zu erkennen und mit diesen Algorithmen nicht nur eine Diagnose zu stellen,
 
 # 8:34
 
-but to augment, what we can already do with these well-trained brilliant physicians and scientists taking care of patients
+sondern zu ergänzen, was wir mit diesen gut ausgebildeten brillanten Ärzten und Wissenschaftlern, die sich um die Patienten kümmern, bereits tun können
 
 # 8:43
 
-So, with this significant increase in technology we now have our global patient, our global human. We're all patients at the end of the day. If we're lucky enough, to make it through there. And we've got all of these different data points. Whether that's your Apple watch
+Also, mit dieser signifikanten Zunahme an Technologie haben wir jetzt unseren globalen Patienten, unseren globalen Menschen. Am Ende des Tages sind wir alle Patienten. Wenn wir das Glück haben, es zu überleben. Und wir haben all diese verschiedenen Datenpunkte. Ob das Ihre Apple-Uhr ist
 
 # 8:57
 
-your sleep tracking data, your genomic data, your exercise data
+Ihre Schlaftracking-Daten, Ihre genomischen Daten, Ihre Trainingsdaten
 
 # 9:01
 
-All of these things can come together in the near future and render a much more high fidelity diagnosis.
+All diese Dinge können in naher Zukunft zusammenkommen und eine viel genauere Diagnose ermöglichen.
 
 # 9:08
 
-And I don't think we're that far off
+Und ich glaube nicht, dass wir so weit davon entfernt sind
 
 # 9:10
 
-from having something is simple as your Facetime on your phone.
+von etwas, das so einfach ist wie Ihr Facetime auf Ihrem Telefon.
 
 # 9:14
 
-Or opening your phone with your unlock screen rendering somewhat of a diagnosis, that you may or may not be experiencing a stroke at this point in time.
+Oder das Öffnen des Telefons mit dem Entsperrungsbildschirm stellt eine Art Diagnose dar, die besagt, dass Sie zu diesem Zeitpunkt einen Schlaganfall erleiden können oder nicht.
 
 
 # 9:22
 
-Based on facial droop, hemifacial paralysis or things like that. And that could be the difference between between saving someone's life with ubiquitous technology.
+Basierend auf Gesichtslähmung, hemifazialer Lähmung oder ähnlichen Dingen. Und das könnte der Unterschied sein zwischen der Rettung eines Menschenlebens mit allgegenwärtiger Technologie.
 
 # 9:30
 
-So again, I think we're really moving from something that's currently a granular pixelated patient picture
+Ich denke also, wir bewegen uns wirklich von etwas, das derzeit ein granulares, pixeliges Patientenbild ist
 
 # 9:37
 
-to a much more high fidelity, high resolution healthcare.
+zu einer wesentlich originalgetreueren, hochauflösenden Gesundheitsversorgung.
 
 # 9:41
 
-And I'm really optimistic about the future on here and looking forward to build that, and I think, in conclusion on here - this is really the arc of innovation
+Und ich bin wirklich optimistisch, was die Zukunft hier angeht und freue mich darauf, das aufzubauen, und ich denke, zum Schluss hier - das ist wirklich der Bogen der Innovation
 
 # 9:50
 
-and this is sort of an arc of innovation in anything bringing back to the analogy of ... uh ... self-driving vehicles and vehicles in general.
+und das ist eine Art Bogen der Innovation in allem, um auf die Analogie von ... äh ... selbstfahrenden Fahrzeugen und Fahrzeugen im Allgemeinen zurückzukommen.
 
 # 9:58
 
-So with transportation, basic transportation is like walking. Basic healthcare is like examination. Or you look at the patient.
+Also mit dem Transport, Basis-Transport ist wie Gehen. Basis-Gesundheitsversorgung ist wie Untersuchung. Oder man schaut sich den Patienten an.
 
 # 10:06
 
-The next thing, that you develop over that platform is a tool, like the horse and carriage, or a stethoscope. And then on top of that we've got great technology like cars. Or MRIs, or genomic sequencing, and then 
+Die nächste Sache, die Sie über diese Plattform entwickeln, ist ein Werkzeug, wie die Pferdekutsche oder ein Stethoskop. Und dann haben wir darüber hinaus großartige Technologien wie Autos. Oder MRTs oder genomische Sequenzierung, und dann
 
 # 10:17
 
-on top of that you have an infrastructure type development, like roads and highways or in healthcare electronic medical records.
+Hinzu kommt eine infrastrukturelle Entwicklung, wie Straßen und Autobahnen oder im Gesundheitswesen elektronische Krankenakten.
 
 # 10:24
 
-I think, the last frontier, is what we're starting to see in that autonomous ride sharing kind of 
+Ich denke, die letzte Grenze ist das, was wir in der autonomen Fahrgemeinschaft sehen.
 
 # 10:30
 
-macro economic macro system change, where you're changing the whole platform, leveraging existing technologies to then bring out 
+makroökonomische Systemveränderung, bei der Sie die gesamte Plattform verändern, indem Sie bestehende Technologien nutzen, um dann
 
 # 10:39
 
-the best components of all the above; and I think in healthcare, we can really leverage augmented intelligence
+die besten Komponenten von all dem oben genannten; und ich denke, im Gesundheitswesen können wir Augmented Intelligence wirklich nutzen
 
 # 10:45
 
-to deliver the best possible patient care.
+um die bestmögliche Patientenversorgung zu gewährleisten.
 
 # 10:48
 
-So in conclusion: Will your algorithm see you now?
+Zusammengefasst: Wird Ihr Algorithmus Sie jetzt sehen?
 
 # 10:51
 
-I don't think it will. And I don't think it ever should.
+Ich denke nicht, dass es das wird. Und ich denke nicht, dass es das jemals sollte.
 
 # 10:53
 
-Because driving cars autonomously is not the same as rendering a new cancer diagnosis, and working through that with a family,
+Denn autonomes Autofahren ist nicht dasselbe wie eine neue Krebsdiagnose zu stellen und diese mit der Familie zu verarbeiten,
 
 # 11:03
 
-with a loved one, and really coming to a shared decision-making platform.
+mit einem geliebten Menschen, und wirklich zu einer gemeinsamen Entscheidungsplattform zu kommen.
 
 # 11:07
 
-This will never be something that should be autonomous, but
+Dies wird nie etwas sein, das autonom sein sollte, aber
 
 # 11:10
 
-I am optimistic that we're gonna in a day very short from now, where you can walk in front of your mirror, as you 
+Ich bin optimistisch, dass wir in sehr kurzer Zeit einen Tag erleben werden, an dem Sie vor Ihren Spiegel treten können, während Sie
 
 # 11:18
 
-get ready in the morning, brushing your teeth, and that mirror will tell you: "Well, hey, it's maybe a nine percent of rain today. Oh ... by the way, that lesion on the side of your neck possibly an eighty-nine percent chance, that that's a melanoma.
+Sie machen sich morgens fertig, putzen sich die Zähne, und der Spiegel sagt Ihnen: "Nun, hey, es ist vielleicht eine neunprozentige Chance, dass es heute regnet. Oh ... übrigens, diese Läsion an der Seite Ihres Halses hat möglicherweise eine neunundachtzigprozentige Chance, dass das ein Melanom ist.
 
 # 11:31
 
-And then also thanks to all of your exercise and sleep physiology data.
+Und dann auch dank all Ihrer trainings- und schlafphysiologischen Daten.
 
 # 11:34
 
-You've decreased your risk for a heart attack by about 10 percent. Now this might seem like it's a long way away
+Sie haben Ihr Risiko für einen Herzinfarkt um etwa 10 Prozent gesenkt. Nun mag das wie ein langer Weg erscheinen
 
 # 11:40
 
-but long shots are never as long as they seem.
+aber Weitschüsse sind nie so lang, wie sie scheinen.
 
 # 11:43
 
-Thank you for your attention.
+Vielen Dank für Ihre Aufmerksamkeit.
