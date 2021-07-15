@@ -1,0 +1,366 @@
+"Your Algorithm Will See You Now" by Michael Abrouk, TEDxUMiami
+
+German and Spanish Transcript for this:
+
+
+So today your algorithm will see you now
+
+And what do I mean by that? Well, I am gonna get into it.
+
+So as a dermatologist, pretty much everyday in the clinic we will see skin like this. I'll walk in and see a patient and this is their back, covered with all of these different spots. 
+ And as a dermatologist I know to look at some of the more important ones.
+
+Why do this spots stand out more to me than all the rest of those spots on there, and why did this jump out to me as being something like a melanoma that I would want to biopsy.
+
+Well, that is the importance of vision. It's also the importance of decades of training, thousands of hours of experience and real world patient context, that allows you, to come to that diagnosis as a dermatologist.
+
+Now, what I like to talk with you about today, is how important these skin cancers are, and how important all skin cancers and all cancers are.
+
+So, on average per year. We have about 5.4 Million non-melanoma skin cancers that are diagnosed. And that comes out to about one skin cancer every five seconds.
+
+So, what I like to discuss, is how we can leverage ubiquitous technology, that we have all around us, to help to come to a higher fidelity diagnosis, and a better rendering of care for patients, and a higher fidelity health care.
+
+So, specificly, this ubiquitous technology that we're talking about.
+
+Things like your iPhone, your camera, your smartphone, even your Apple watch and other data sensor metrics. 
+
+We can use now this data technology to get a better conclusive diagnosis in healthcare using artificial intelligence.
+
+Now, before we jump into all the computer science and all the fun stuff, I want to do something that I don't know has ever been done in a TedTalk before.
+
+So, a lot of people listen to these remotely. They're listen to podcasts. And I'd like you to, at this moment, to safely pull over on the road or pull over from your workout and take a look at your phone or whatever streaming device you're using.
+
+Because we're gonna do a little pop quiz.
+
+And this pop quiz is specifically a guess: "Who am I?"
+
+So, who am I specifically talking about right now? And whenever the answer is coming to your mind, just blurt it out. It doesn't matter if you're bothering whoever's next to you. They will probably like it and ask about the talk in and of itself.
+
+So, I am a male
+
+I have a beard
+
+I am tall
+
+I like speeches
+
+I was born in a log cabin
+
+And I was a former president of the United States of America.
+
+So, if you're come to a conclusion again, feel free to blurt that one out. Then that's Abraham Lincoln over here.
+
+Now, those pieces of data are all siloed off in individual components. Like the height, the description, the beard, all of these things. And it takes a little time to tease out that data, to see exactly what we're talking about.
+
+Now - leveraging instead of those natural language data points or individual data points. If we then leverage visual data, you now get to the second question of this pop quiz.
+
+Which is: "Who is this?"
+
+And the anser would be: The greatest basketball player in NBA history, Kobe Bryant.
+
+And it is a lot easier to come to conclusions like that, based on visual data rather than individual components of data points.
+
+And I'd like to discuss today, how we can do that same thing in dermatology and in healthcare, to get a much better diagnosis and really leverage a lot more data points for our patients. 
+
+So, specifically when patients come in today.
+
+They've got all different categories like their bloodwork, which medications they're on, various electronic medical records, and then all sorts of other data points from a physical exam and paperwork.
+
+And those are sort of individual components, that aren't really brought together in a way that we can do yet, but we're getting very close.
+
+###
+
+## 3:56  
+
+And we're getting close, thanks to the use of machine learning
+
+# 4:00 
+
+artificial intelligence and really computer vision to come to those integrated diagnoses and integrated decision platforms a lot more quickly with higher fidelity.
+
+# 4:11
+
+So, again, we're talking today about leveraging visual data points, to come to a better conclusion to diagnose things like cancer.
+
+# 4:19
+
+Like heart attacks.
+
+Like strokes.
+
+# 4:21
+
+Very important health care issues for the whole world.
+
+# 4:25
+
+So again, we're moving from what I like to call artificial intelligence into more of a clinical workflow of something I like to coin as augmented intelligence.
+
+# 4:34
+
+And that is really bringing the data points of artificial intelligence into an augmented decision platform with both: patients and physicians together, rendering that as not just it's own small piece but really a conclusion that they'd come to together.
+
+# 4:49
+
+So we're moving from healthcare to augmented health care.
+
+# 4:53
+
+Really augmenting the ability to diagnose treat and manage.
+
+# 4:57
+
+And I think, a great way to think about this, is what's been done with Tesla.
+
+# 5:02
+
+So you look at Tesla which has done phenomally well in artificial intelligence and really edge mapping, machine learning, vision mapping, computer vision.
+
+# 5:10
+
+And this is an actual footage of Tesla's autonomous vehicle in real time in Silicon Valley
+
+# 5:16
+
+driving around the streets
+
+# 5:17
+
+Now obviously this isn't fully autonomous, this is working in conjunction with the driver themselves. And you can that it maps out all these data points.
+
+# 5:26
+
+We're trying to do the same thing with data points in healthcare.
+
+# 5:31
+
+So how do they do that? Lots of really really high definition cameras that are brilliantly integrated on their vehicles.
+
+# 5:38
+
+So how can we can take some of those high definition images that we see in dermatology 
+
+# 5:42
+
+on patients´ skin, on human skin, and really integrate that in to do this with machine learning in healthcare.
+
+# 5:49
+
+So what a great research team did up at Stanford, was, they took over 100.000 biopsy proven clinical images.
+
+# 5:57
+
+And over 2.000 different disesase classifications
+
+# 6:01
+
+And they put that into a convolutional neuronal network through a training set model
+
+# 6:06
+
+and we won't get into the details of the computer science on it but at after training that model back and forth, 
+
+# 6:12
+
+it ultimately comes to a conclusion, when being quizzed on a new lesion or a new image, and it renders a diagnosis whether that's a melanoma
+
+# 6:22
+
+a dysplastic nevis or whatever it may be.
+
+# 6:25
+
+So again: They took that now trained artificial intelligence machine learning model, and they quizzed it. On all sorts of different images and different kinds of of cutaneous findings that might be cancerous and they might not be
+
+# 6:38
+
+And this is sort of what the computer sees: You see this sort of static edge mapping outline on some of these lesions. 
+
+# 6:45
+
+as well as this heat map kind of rendering what would be a concerning finding, versus what would be something that's a little bit more benign.
+
+# 6:52
+
+And this is realtime a demo of this happening on a cellphone looking at these images and actually scanning them with reasonable fidelity, to see whether or not this is something concerning like a melanoma
+
+# 7:04
+
+or it's something less concerning like a benign cutaneous growth. 
+
+# 7:08
+
+And they quiz that model on carcinomas against board-certified dermatologists working together and they found, the algorithm had about a 96% accurate diagnosis for those carcinomas
+
+# 7:19
+
+And about a 94% accurate diagnosis for melanomas,
+
+# 7:23
+
+which is pretty incredible.
+
+# 7:25
+
+They were able to do that at this young stage in artificial intelligence in healthcare.
+
+# 7:30
+
+Even more impressive is another group back over at MIT and Havard did a collaborative study, taking instead of those individual lesions, looking at a full body photography or more of a global picture.
+
+# 7:41
+
+Something, that would be more practical, like the image that we saw at the start,
+
+# 7:44
+
+where you're actually just looking at the global picure of a patient when they walk in, and identifying, which one of those points
+
+# 7:51
+
+which one of those lesions are more concerning than others, and 
+
+# 7:55
+
+it's really the start of this technology
+
+# 7:58
+
+So where I think, this is extremely cool, is, this can work in anything in healthcare, not just dermatology.
+
+# 8:04
+
+Not just pathology. It's really anything that is visual at this point and hopefully we can move into something that is a little more natural language processing in the near future.
+
+# 8:13
+
+But this is allowing us to augment dermatopathology as well with some of the teams over at Google, 
+
+# 8:18
+
+doing an incredible job really rendering those outlines of what are concerning features under histology and even another group over at Stanford, doing this for X-rays as well,
+
+#8:28
+
+for identifying this again directly on the cell phone, using these algorithms to not just render a diagnosis,
+
+# 8:34
+
+but to augment, what we can already do with these well-trained brilliant physicians and scientists taking care of patients
+
+# 8:43
+
+So, with this significant increase in technology we now have our global patient, our global human. We're all patients at the end of the day. If we're lucky enough, to make it through there. And we've got all of these different data points. Whether that's your Apple watch
+
+# 8:57
+
+your sleep tracking data, your genomic data, your exercise data
+
+# 9:01
+
+All of these things can come together in the near future and render a much more high fidelity diagnosis.
+
+# 9:08
+
+And I don't think we're that far off
+
+# 9:10
+
+from having something is simple as your Facetime on your phone.
+
+# 9:14
+
+Or opening your phone with your unlock screen rendering somewhat of a diagnosis, that you may or may not be experiencing a stroke at this point in time.
+
+
+# 9:22
+
+Based on facial droop, hemifacial paralysis or things like that. And that could be the difference between between saving someone's life with ubiquitous technology.
+
+# 9:30
+
+So again, I think we're really moving from something that's currently a granular pixelated patient picture
+
+# 9:37
+
+to a much more high fidelity, high resolution healthcare.
+
+# 9:41
+
+And I'm really optimistic about the future on here and looking forward to build that, and I think, in conclusion on here - this is really the arc of innovation
+
+# 9:50
+
+and this is sort of an arc of innovation in anything bringing back to the analogy of ... uh ... self-driving vehicles and vehicles in general.
+
+# 9:58
+
+So with transportation, basic transportation is like walking. Basic healthcare is like examination. Or you look at the patient.
+
+# 10:06
+
+The next thing, that you develop over that platform is a tool, like the horse and carriage, or a stethoscope. And then on top of that we've got great technology like cars. Or MRIs, or genomic sequencing, and then 
+
+# 10:17
+
+on top of that you have an infrastructure type development, like roads and highways or in healthcare electronic medical records.
+
+# 10:24
+
+I think, the last frontier, is what we're starting to see in that autonomous ride sharing kind of 
+
+# 10:30
+
+macro economic macro system change, where you're changing the whole platform, leveraging existing technologies to then bring out 
+
+# 10:39
+
+the best components of all the above; and I think in healthcare, we can really leverage augmented intelligence
+
+# 10:45
+
+to deliver the best possible patient care.
+
+# 10:48
+
+So in conclusion: Will your algorithm see you now?
+
+# 10:51
+
+I don't think it will. And I don't think it ever should.
+
+# 10:53
+
+Because driving cars autonomously is not the same as rendering a new cancer diagnosis, and working through that with a family,
+
+# 11:03
+
+with a loved one, and really coming to a shared decision-making platform.
+
+# 11:07
+
+This will never be something that should be autonomous, but
+
+# 11:10
+
+I am optimistic that we're gonna in a day very short from now, where you can walk in front of your mirror, as you 
+
+# 11:18
+
+get ready in the morning, brushing your teeth, and that mirror will tell you: "Well, hey, it's maybe a nine percent of rain today. Oh ... by the way, that lesion on the side of your neck possibly an eighty-nine percent chance, that that's a melanoma.
+
+# 11:31
+
+And then also thanks to all of your exercise and sleep physiology data.
+
+# 11:34
+
+You've decreased your risk for a heart attack by about 10 percent. Now this might seem like it's a long way away
+
+# 11:40
+
+but long shots are never as long as they seem.
+
+# 11:43
+
+Thank you for your attention.
