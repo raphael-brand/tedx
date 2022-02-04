@@ -1,41 +1,40 @@
-"Ihr Algorithmus wird Sie jetzt sehen" von Michael Abrouk, TEDxUMiami
+"Dein Algorithmus wird dich jetzt sehen" von Michael Abrouk, TEDxUMiami
 
-Deutsch und Spanisch Transcript dafür:
+Deutsches und spanisches Transkript dazu:
 
 
-So wird Ihr Algorithmus heute sehen Sie jetzt
+Heute wird dein Algorithmus dich also sehen.
 
 Und was meine ich damit? Nun, ich werde darauf eingehen.
 
-Als Dermatologe sehen wir so ziemlich jeden Tag in der Klinik solche Haut. Ich komme rein und sehe einen Patienten und das ist sein Rücken, bedeckt mit all diesen verschiedenen Flecken.
+Als Dermatologe sehen wir so ziemlich jeden Tag in der Klinik Haut wie diese. Ich komme rein und sehe einen Patienten, und das ist sein Rücken, übersät mit all diesen verschiedenen Flecken. 
+ Und als Dermatologe weiß ich, dass ich mir die wichtigsten davon ansehen muss.
 
-Und als Dermatologe weiß ich, dass ich mir einige der wichtigeren ansehen muss.
+Warum sticht dieser Fleck für mich mehr hervor als all die anderen Flecken dort, und warum fällt mir auf, dass es sich um ein Melanom handelt, das ich biopsieren möchte.
 
-Warum sticht dieser Fleck für mich mehr heraus als alle anderen Flecken dort, und warum springt er mir als so etwas wie ein Melanom ins Auge, das ich biopsieren möchte.
+Nun, das ist die Bedeutung des Sehens. Es ist auch die Bedeutung einer jahrzehntelangen Ausbildung, tausender Stunden Erfahrung und eines realen Patientenkontextes, der es Ihnen als Dermatologe ermöglicht, diese Diagnose zu stellen.
 
-Nun, das ist die Bedeutung der Vision. Es ist auch die Bedeutung der jahrzehntelangen Ausbildung, tausender Stunden Erfahrung und des realen Patientenkontextes, der es Ihnen als Dermatologe erlaubt, zu dieser Diagnose zu kommen.
+Worüber ich heute mit Ihnen sprechen möchte, ist, wie wichtig diese Hautkrebsarten sind, und wie wichtig alle Hautkrebsarten und alle Krebsarten sind.
 
-Worüber ich heute mit Ihnen sprechen möchte, ist, wie wichtig diese Hautkrebse sind, und wie wichtig alle Hautkrebse und alle Krebsarten sind.
-
-Im Durchschnitt werden also pro Jahr etwa 5,4 Millionen Nicht-Melanom-Hautkrebse diagnostiziert. Das bedeutet, dass etwa alle fünf Sekunden ein Hautkrebs auftritt.
+Im Durchschnitt erkranken also pro Jahr Wir haben etwa 5,4 Millionen diagnostizierte Nicht-Melanom-Hautkrebse. Das bedeutet, dass etwa alle fünf Sekunden ein Hautkrebs diagnostiziert wird.
 
 Ich möchte also erörtern, wie wir die allgegenwärtige Technologie, die wir überall um uns herum haben, nutzen können, um zu einer zuverlässigeren Diagnose, einer besseren Versorgung der Patienten und einer zuverlässigeren Gesundheitsversorgung zu gelangen.
 
-Also, speziell diese allgegenwärtige Technologie, über die wir sprechen.
+Konkret geht es also um die allgegenwärtige Technologie, über die wir sprechen.
 
-Dinge wie Ihr iPhone, Ihre Kamera, Ihr Smartphone, sogar Ihre Apple Watch und andere Datensensormetriken.
+Dinge wie Ihr iPhone, Ihre Kamera, Ihr Smartphone, sogar Ihre Apple Watch und andere Datensensormetriken. 
 
-Wir können jetzt diese Datentechnologie nutzen, um mit Hilfe von künstlicher Intelligenz eine bessere, schlüssige Diagnose im Gesundheitswesen zu erhalten.
+Wir können jetzt diese Datentechnologie nutzen, um mithilfe von künstlicher Intelligenz eine bessere Diagnose im Gesundheitswesen zu erhalten.
 
-Nun, bevor wir uns in die ganze Computerwissenschaft und den ganzen Spaß stürzen, möchte ich etwas tun, von dem ich nicht weiß, ob es jemals zuvor in einem TedTalk gemacht wurde.
+Bevor wir nun in die Computerwissenschaft und all die lustigen Dinge einsteigen, möchte ich etwas tun, das meines Wissens noch nie in einem TedTalk gemacht wurde.
 
-Also, viele Leute hören sich diese aus der Ferne an. Sie hören sich Podcasts an. Und ich möchte Sie bitten, in diesem Moment auf der Straße sicher anzuhalten oder Ihr Training zu unterbrechen und einen Blick auf Ihr Telefon oder das Streaming-Gerät zu werfen, das Sie gerade benutzen.
+Viele Leute hören sich das aus der Ferne an. Sie hören sich Podcasts an. Und ich möchte Sie bitten, in diesem Moment auf der Straße anzuhalten oder Ihr Training zu unterbrechen und einen Blick auf Ihr Telefon oder das Streaming-Gerät zu werfen, das Sie gerade benutzen.
 
-Denn wir werden ein kleines Pop-Quiz machen.
+Denn wir werden ein kleines Quiz machen.
 
-Und bei diesem Pop-Quiz geht es speziell um das Raten: "Wer bin ich?"
+Und bei diesem Quiz geht es darum, zu raten: "Wer bin ich?"
 
-Also, von wem spreche ich jetzt konkret? Und wenn Ihnen die Antwort in den Sinn kommt, platzen Sie einfach damit heraus. Es ist egal, ob Sie Ihren Gesprächspartner damit belästigen. Er wird es wahrscheinlich mögen und nach dem Gespräch an sich fragen.
+Also, von wem spreche ich gerade konkret? Und wann immer Ihnen die Antwort in den Sinn kommt, sprechen Sie sie einfach aus. Es spielt keine Rolle, ob Sie Ihren Nachbarn damit belästigen. Es wird ihnen wahrscheinlich gefallen und sie werden nach dem Gespräch an sich fragen.
 
 Also, ich bin ein Mann
 
@@ -49,57 +48,57 @@ Ich wurde in einer Blockhütte geboren
 
 Und ich war ein ehemaliger Präsident der Vereinigten Staaten von Amerika.
 
-Also, wenn Sie wieder zu einem Schluss kommen, können Sie diesen gerne ausplaudern. Dann ist das hier Abraham Lincoln.
+Also, wenn Sie wieder zu einem Schluss kommen, können Sie das gerne ausplaudern. Dann ist das hier Abraham Lincoln.
 
-Nun, diese Daten sind alle in einzelne Komponenten aufgeteilt. Wie die Höhe, die Beschreibung, der Bart, all diese Dinge. Und es braucht ein wenig Zeit, um diese Daten herauszufiltern, um genau zu sehen, worüber wir sprechen.
+Diese Daten sind alle in einzelne Komponenten aufgeteilt. Wie die Größe, die Beschreibung, der Bart, all diese Dinge. Es dauert ein wenig, diese Daten herauszufiltern, um genau zu sehen, worüber wir sprechen.
 
-Nun - nutzen wir stattdessen diese natürlichsprachlichen Datenpunkte oder einzelne Datenpunkte. Wenn wir dann visuelle Daten nutzen, kommen Sie zur zweiten Frage dieses Pop-Quiz.
+Anstelle dieser natürlichsprachlichen Datenpunkte oder einzelner Datenpunkte können wir nun visuelle Daten nutzen. Wenn wir dann visuelle Daten nutzen, kommen wir zur zweiten Frage dieses Quiz.
 
-Nämlich: "Wer ist da?"
+Die lautet: "Wer ist das?"
 
 Und die Antwort wäre: Der größte Basketballspieler in der Geschichte der NBA, Kobe Bryant.
 
-Und es ist viel einfacher, zu solchen Schlussfolgerungen zu kommen, die auf visuellen Daten basieren und nicht auf einzelnen Komponenten von Datenpunkten.
+Und es ist viel einfacher, zu solchen Schlussfolgerungen zu kommen, die auf visuellen Daten und nicht auf einzelnen Komponenten von Datenpunkten basieren.
 
-Und ich möchte heute darüber sprechen, wie wir dasselbe in der Dermatologie und im Gesundheitswesen tun können, um eine viel bessere Diagnose zu erhalten und wirklich viel mehr Datenpunkte für unsere Patienten zu nutzen.
+Und ich möchte heute erörtern, wie wir in der Dermatologie und im Gesundheitswesen dasselbe tun können, um eine viel bessere Diagnose zu erhalten und wirklich viel mehr Datenpunkte für unsere Patienten zu nutzen. 
 
-Also, speziell wenn Patienten heute kommen.
+Wenn Patienten heute zu uns kommen, haben sie verschiedene Kategorien.
 
-Sie haben alle verschiedenen Kategorien, wie z. B. ihre Blutwerte, welche Medikamente sie einnehmen, verschiedene elektronische Krankenakten und dann alle möglichen anderen Datenpunkte aus einer körperlichen Untersuchung und Papierkram.
+Sie haben alle möglichen Kategorien, wie z. B. ihre Blutwerte, die Medikamente, die sie einnehmen, verschiedene elektronische Krankenakten und dann alle möglichen anderen Datenpunkte aus einer körperlichen Untersuchung und Papierkram.
 
-Und das sind sozusagen Einzelkomponenten, die noch nicht wirklich zusammengeführt werden können, aber wir kommen dem schon sehr nahe.
+Und das sind einzelne Komponenten, die wir noch nicht wirklich zusammenführen können, aber wir kommen dem schon sehr nahe.
 
 ###
 
-## 3:56
+## 3:56  
 
-Und wir kommen der Sache näher, dank des Einsatzes von maschinellem Lernen
+Und wir kommen der Sache näher, dank des Einsatzes von maschinellem Lernen.
 
-# 4:00
+# 4:00 
 
-Künstliche Intelligenz und Computer Vision, um viel schneller und mit höherer Genauigkeit zu diesen integrierten Diagnosen und integrierten Entscheidungsplattformen zu kommen.
+Künstliche Intelligenz und Computer Vision, um diese integrierten Diagnosen und integrierten Entscheidungsplattformen viel schneller und mit höherer Genauigkeit zu erstellen.
 
 # 4:11
 
-Wir sprechen heute also wieder über die Nutzung visueller Datenpunkte, um zu einer besseren Schlussfolgerung bei der Diagnose von Dingen wie Krebs zu kommen.
+Wir sprechen also heute über die Nutzung visueller Datenpunkte, um zu einer besseren Diagnose von Dingen wie Krebs zu gelangen.
 
 # 4:19
 
 Wie Herzinfarkte.
 
-Wie Anschläge.
+Wie Schlaganfälle.
 
 # 4:21
 
-Sehr wichtige Fragen der Gesundheitsversorgung für die ganze Welt.
+Sehr wichtige Gesundheitsprobleme für die ganze Welt.
 
 # 4:25
 
-Auch hier bewegen wir uns also von dem, was ich gerne als künstliche Intelligenz bezeichne, hin zu einem klinischen Workflow, den ich gerne als erweiterte Intelligenz bezeichne.
+Auch hier bewegen wir uns also von dem, was ich gerne als künstliche Intelligenz bezeichne, hin zu einem klinischen Arbeitsablauf, den ich gerne als erweiterte Intelligenz bezeichne.
 
 # 4:34
 
-Und das bedeutet, die Datenpunkte der künstlichen Intelligenz in eine erweiterte Entscheidungsplattform zu bringen, in der sowohl Patienten als auch Ärzte zusammenarbeiten, und das nicht nur als ein eigenes kleines Stück, sondern wirklich als eine Schlussfolgerung, zu der sie gemeinsam gekommen sind.
+Und das bedeutet, dass die Datenpunkte der künstlichen Intelligenz in eine erweiterte Entscheidungsplattform eingebracht werden, in der sowohl Patienten als auch Ärzte zusammenarbeiten, so dass dies nicht nur ein kleiner Teil ist, sondern eine Schlussfolgerung, zu der sie gemeinsam gekommen sind.
 
 # 4:49
 
@@ -107,261 +106,6 @@ Wir bewegen uns also von der Gesundheitsversorgung zur erweiterten Gesundheitsve
 
 # 4:53
 
-Die Fähigkeit zur Diagnose, Behandlung und zum Management wird dadurch wirklich erweitert.
+Die Fähigkeit zur Diagnose von Krankheiten wird erweitert
 
-# 4:57
-
-Und ich denke, eine gute Möglichkeit, darüber nachzudenken, ist das, was mit Tesla gemacht wurde.
-
-# 5:02
-
-Schauen Sie sich Tesla an, das im Bereich der künstlichen Intelligenz und des Edge Mappings, des maschinellen Lernens, des Vision Mappings und der Computer Vision phänomenale Leistungen erbracht hat.
-
-# 5:10
-
-Und dies ist eine aktuelle Aufnahme des autonomen Fahrzeugs von Tesla in Echtzeit im Silicon Valley
-
-# 5:16
-
-Fahren auf den Straßen
-
-# 5:17
-
-Das ist natürlich nicht völlig autonom, sondern arbeitet mit dem Fahrer zusammen. Und Sie können sehen, dass es all diese Datenpunkte aufzeichnet.
-
-# 5:26
-
-Wir versuchen, dasselbe mit Datenpunkten im Gesundheitswesen zu tun.
-
-# 5:31
-
-Und wie machen sie das? Mit einer Menge wirklich hochauflösender Kameras, die brillant in ihre Fahrzeuge integriert sind.
-
-# 5:38
-
-Wie können wir also einige dieser hochauflösenden Bilder, die wir in der Dermatologie sehen, aufnehmen
-
-# 5:42
-
-auf der Haut von Patienten, auf der menschlichen Haut, und das wirklich zu integrieren, um dies mit maschinellem Lernen im Gesundheitswesen zu tun.
-
-# 5:49
-
-Ein großartiges Forschungsteam in Stanford hat also über 100.000 biopsieerprobte klinische Bilder aufgenommen.
-
-# 5:57
-
-Und über 2.000 verschiedene Krankheitsklassifikationen
-
-# 6:01
-
-Und das haben sie durch ein Trainingsset-Modell in ein faltiges neuronales Netz eingegeben
-
-# 6:06
-
-und wir werden nicht in die Details der Computerwissenschaft dazu einsteigen, aber nach dem Training dieses Modells hin und her,
-
-# 6:12
-
-es kommt schließlich zu einer Schlussfolgerung, wenn es eine neue Läsion oder ein neues Bild abfragt, und es stellt eine Diagnose, ob es sich um ein Melanom handelt
-
-# 6:22
-
-eine dysplastische Nevis oder was auch immer es sein mag.
-
-# 6:25
-
-Also noch einmal: Sie nahmen das jetzt trainierte maschinelle Lernmodell der künstlichen Intelligenz und fragten es ab. Auf allen möglichen verschiedenen Bildern und verschiedenen Arten von Hautbefunden, die krebsartig sein könnten und die es vielleicht nicht sind
-
-# 6:38
-
-Und das ist es, was der Computer sieht: Sie sehen diese Art von statischen Kantenumrissen auf einigen dieser Läsionen.
-
-# 6:45
-
-sowie diese Heatmap, die anzeigt, was ein besorgniserregender Befund ist und was eher harmlos ist.
-
-# 6:52
-
-Dies ist eine Echtzeit-Demonstration auf einem Mobiltelefon, das diese Bilder betrachtet und mit angemessener Genauigkeit scannt, um zu sehen, ob es sich um ein Melanom handelt oder nicht
-
-# 7:04
-
-oder es ist etwas weniger Besorgniserregendes wie eine gutartige Hautwucherung.
-
-# 7:08
-
-Sie untersuchten dieses Modell an Karzinomen und verglichen es mit zertifizierten Dermatologen, die zusammen arbeiteten, und sie fanden heraus, dass der Algorithmus eine 96%ige Genauigkeit bei der Diagnose dieser Karzinome hatte
-
-# 7:19
-
-Und etwa eine 94% genaue Diagnose für Melanome,
-
-# 7:23
-
-was ziemlich unglaublich ist.
-
-# 7:25
-
-Das ist ihnen in diesem jungen Stadium der künstlichen Intelligenz im Gesundheitswesen gelungen.
-
-# 7:30
-
-Noch beeindruckender ist, dass eine andere Gruppe drüben am MIT und in Havard eine gemeinsame Studie durchgeführt hat, die anstelle dieser einzelnen Läsionen eine Ganzkörperfotografie oder eher ein globales Bild betrachtet.
-
-# 7:41
-
-Etwas, das praktischer wäre, wie das Bild, das wir am Anfang gesehen haben,
-
-# 7:44
-
-wo man eigentlich nur das Gesamtbild eines Patienten betrachtet, wenn er reinkommt, und identifiziert, welcher dieser Punkte
-
-# 7:51
-
-welche dieser Läsionen mehr betroffen sind als andere, und
-
-# 7:55
-
-es ist wirklich der Anfang dieser Technologie
-
-# 7:58
-
-Ich denke, das ist extrem cool, denn das kann in jedem Bereich des Gesundheitswesens funktionieren, nicht nur in der Dermatologie.
-
-# 8:04
-
-Nicht nur Pathologie. Im Moment ist es wirklich alles, was visuell ist, und hoffentlich können wir in naher Zukunft zu etwas übergehen, das ein wenig mehr natürliche Sprachverarbeitung beinhaltet.
-
-# 8:13
-
-Aber das erlaubt uns auch, die Dermatopathologie mit einigen Teams bei Google zu erweitern,
-
-# 8:18
-
-Sie machen einen unglaublichen Job, indem sie diese Umrisse von Merkmalen in der Histologie darstellen, und eine andere Gruppe in Stanford macht das auch für Röntgenaufnahmen,
-
-#8:28
-
-um dies wieder direkt auf dem Handy zu erkennen und mit diesen Algorithmen nicht nur eine Diagnose zu stellen,
-
-# 8:34
-
-sondern zu ergänzen, was wir mit diesen gut ausgebildeten brillanten Ärzten und Wissenschaftlern, die sich um die Patienten kümmern, bereits tun können
-
-# 8:43
-
-Also, mit dieser signifikanten Zunahme an Technologie haben wir jetzt unseren globalen Patienten, unseren globalen Menschen. Am Ende des Tages sind wir alle Patienten. Wenn wir das Glück haben, es zu überleben. Und wir haben all diese verschiedenen Datenpunkte. Ob das Ihre Apple-Uhr ist
-
-# 8:57
-
-Ihre Schlaftracking-Daten, Ihre genomischen Daten, Ihre Trainingsdaten
-
-# 9:01
-
-All diese Dinge können in naher Zukunft zusammenkommen und eine viel genauere Diagnose ermöglichen.
-
-# 9:08
-
-Und ich glaube nicht, dass wir so weit davon entfernt sind
-
-# 9:10
-
-von etwas, das so einfach ist wie Ihr Facetime auf Ihrem Telefon.
-
-# 9:14
-
-Oder das Öffnen des Telefons mit dem Entsperrungsbildschirm stellt eine Art Diagnose dar, die besagt, dass Sie zu diesem Zeitpunkt einen Schlaganfall erleiden können oder nicht.
-
-
-# 9:22
-
-Basierend auf Gesichtslähmung, hemifazialer Lähmung oder ähnlichen Dingen. Und das könnte der Unterschied sein zwischen der Rettung eines Menschenlebens mit allgegenwärtiger Technologie.
-
-# 9:30
-
-Ich denke also, wir bewegen uns wirklich von etwas, das derzeit ein granulares, pixeliges Patientenbild ist
-
-# 9:37
-
-zu einer wesentlich originalgetreueren, hochauflösenden Gesundheitsversorgung.
-
-# 9:41
-
-Und ich bin wirklich optimistisch, was die Zukunft hier angeht und freue mich darauf, das aufzubauen, und ich denke, zum Schluss hier - das ist wirklich der Bogen der Innovation
-
-# 9:50
-
-und das ist eine Art Bogen der Innovation in allem, um auf die Analogie von ... äh ... selbstfahrenden Fahrzeugen und Fahrzeugen im Allgemeinen zurückzukommen.
-
-# 9:58
-
-Also mit dem Transport, Basis-Transport ist wie Gehen. Basis-Gesundheitsversorgung ist wie Untersuchung. Oder man schaut sich den Patienten an.
-
-# 10:06
-
-Die nächste Sache, die Sie über diese Plattform entwickeln, ist ein Werkzeug, wie die Pferdekutsche oder ein Stethoskop. Und dann haben wir darüber hinaus großartige Technologien wie Autos. Oder MRTs oder genomische Sequenzierung, und dann
-
-# 10:17
-
-Hinzu kommt eine infrastrukturelle Entwicklung, wie Straßen und Autobahnen oder im Gesundheitswesen elektronische Krankenakten.
-
-# 10:24
-
-Ich denke, die letzte Grenze ist das, was wir in der autonomen Fahrgemeinschaft sehen.
-
-# 10:30
-
-makroökonomische Systemveränderung, bei der Sie die gesamte Plattform verändern, indem Sie bestehende Technologien nutzen, um dann
-
-# 10:39
-
-die besten Komponenten von all dem oben genannten; und ich denke, im Gesundheitswesen können wir Augmented Intelligence wirklich nutzen
-
-# 10:45
-
-um die bestmögliche Patientenversorgung zu gewährleisten.
-
-# 10:48
-
-Zusammengefasst: Wird Ihr Algorithmus Sie jetzt sehen?
-
-# 10:51
-
-Ich denke nicht, dass es das wird. Und ich denke nicht, dass es das jemals sollte.
-
-# 10:53
-
-Denn autonomes Autofahren ist nicht dasselbe wie eine neue Krebsdiagnose zu stellen und diese mit der Familie zu verarbeiten,
-
-# 11:03
-
-mit einem geliebten Menschen, und wirklich zu einer gemeinsamen Entscheidungsplattform zu kommen.
-
-# 11:07
-
-Dies wird nie etwas sein, das autonom sein sollte, aber
-
-# 11:10
-
-Ich bin optimistisch, dass wir in sehr kurzer Zeit einen Tag erleben werden, an dem Sie vor Ihren Spiegel treten können, während Sie
-
-# 11:18
-
-Sie machen sich morgens fertig, putzen sich die Zähne, und der Spiegel sagt Ihnen: "Nun, hey, es ist vielleicht eine neunprozentige Chance, dass es heute regnet. Oh ... übrigens, diese Läsion an der Seite Ihres Halses hat möglicherweise eine neunundachtzigprozentige Chance, dass das ein Melanom ist.
-
-# 11:31
-
-Und dann auch dank all Ihrer trainings- und schlafphysiologischen Daten.
-
-# 11:34
-
-Sie haben Ihr Risiko für einen Herzinfarkt um etwa 10 Prozent gesenkt. Nun mag das wie ein langer Weg erscheinen
-
-# 11:40
-
-aber Weitschüsse sind nie so lang, wie sie scheinen.
-
-# 11:43
-
-Vielen Dank für Ihre Aufmerksamkeit.
+Übersetzt mit www.DeepL.com/Translator (kostenlose Version)
